@@ -11,7 +11,7 @@ const Footer = () => {
               href="#"
               className="flex justify-center space-x-3 lg:justify-start"
             >
-              <div className="flex items-center justify-center w-20 h-20 rounded-full  bg-violet-400 dark:bg-violet-600">
+              <div className="flex items-center justify-center sm:justify-start w-20 h-20 rounded-full  bg-violet-400 dark:bg-violet-600">
                 <img src={Logo} className="w-20 h-20 rounded-full" alt="logo_img"/>
               </div>
               <span className="self-center text-2xl font-semibold">
