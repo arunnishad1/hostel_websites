@@ -14,19 +14,30 @@ const Home = () => {
 <section className="bg-gray-700 dark:bg-gray-100 text-gray-100 dark:text-gray-800 p-14">
 	<div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
 		<h2 className="text-2xl font-semibold sm:text-4xl">Frequently Asked Questions</h2>
-		<p className="mt-4 mb-8 text-gray-400 dark:text-gray-600">Sagittis tempor donec id vestibulum viverra. Neque condimentum primis orci at lacus amet bibendum.</p>
 		<div className="space-y-4">
 			<details className="w-full border rounded-lg">
-				<summary className="px-4 py-6 focus:outline-none focus-visible:ring-violet-400 focus-visible:dark:ring-violet-600 hover:cursor-pointer">Ex orci laoreet egestas sapien magna egestas scelerisque?</summary>
-				<p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-400 dark:text-gray-600">Lectus iaculis orci metus vitae ligula dictum per. Nisl per nullam taciti at adipiscing est. </p>
+				<summary className="px-4 py-6 focus:outline-none focus-visible:ring-violet-400 focus-visible:dark:ring-violet-600 hover:cursor-pointer">Do you provide meals?</summary>
+				<p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-400 dark:text-gray-600">We offer complimentary breakfast and have a shared kitchen for self-cooking. </p>
 			</details>
 			<details className="w-full border rounded-lg">
-				<summary className="px-4 py-6 focus:outline-none focus-visible:ring-violet-400 focus-visible:dark:ring-violet-600 hover:cursor-pointer">Lorem at arcu rutrum viverra metus sapien venenatis lobortis odio?</summary>
-				<p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-400 dark:text-gray-600">Tincidunt ut hac condimentum rhoncus phasellus nostra. Magna porttitor egestas tincidunt neque vehicula potenti. </p>
+				<summary className="px-4 py-6 focus:outline-none focus-visible:ring-violet-400 focus-visible:dark:ring-violet-600 hover:cursor-pointer">Is Wi-Fi available?</summary>
+				<p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-400 dark:text-gray-600">Yes, free high-speed Wi-Fi is available throughout the hostel. </p>
 			</details>
 			<details className="w-full border rounded-lg">
-				<summary className="px-4 py-6 focus:outline-none focus-visible:ring-violet-400 focus-visible:dark:ring-violet-600 hover:cursor-pointer">Eleifend feugiat sollicitudin laoreet adipiscing bibendum suscipit erat?</summary>
-				<p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-400 dark:text-gray-600">Justo libero tellus integer tincidunt justo semper consequat venenatis aliquet imperdiet. Ultricies urna proin fusce nulla pretium sodales vel magna et massa euismod vulputate sed. </p>
+				<summary className="px-4 py-6 focus:outline-none focus-visible:ring-violet-400 focus-visible:dark:ring-violet-600 hover:cursor-pointer">How do I book a room?</summary>
+				<p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-400 dark:text-gray-600">You can book a room online through our booking page. </p>
+			</details>
+			<details className="w-full border rounded-lg">
+				<summary className="px-4 py-6 focus:outline-none focus-visible:ring-violet-400 focus-visible:dark:ring-violet-600 hover:cursor-pointer">Do you provide laundry facilities?</summary>
+				<p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-400 dark:text-gray-600">Yes, we have self-service laundry facilities for guests. </p>
+			</details>
+			<details className="w-full border rounded-lg">
+				<summary className="px-4 py-6 focus:outline-none focus-visible:ring-violet-400 focus-visible:dark:ring-violet-600 hover:cursor-pointer">Are group bookings allowed?</summary>
+				<p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-400 dark:text-gray-600">Yes, we accommodate group bookings; contact us for special arrangements. </p>
+			</details>
+			<details className="w-full border rounded-lg">
+				<summary className="px-4 py-6 focus:outline-none focus-visible:ring-violet-400 focus-visible:dark:ring-violet-600 hover:cursor-pointer">Is there public transport nearby?</summary>
+				<p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-400 dark:text-gray-600">Yes, we are well-connected by buses and trains. </p>
 			</details>
 		</div>
 	</div>
