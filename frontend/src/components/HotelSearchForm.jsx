@@ -21,10 +21,10 @@ const HostelSearchForm = () => {
         <div className="relative mb-4">
           <input
             type="text"
-            placeholder="Where are you traveling?"
+            placeholder="Where to go?"
             value={destination}
             onChange={(e) => setDestination(e.target.value)}
-            className="w-full p-3 pl-10 border rounded-lg focus:ring focus:ring-violet-400"
+            className="w-full p-3 sm:p-1 pl-10 border rounded-lg focus:ring focus:ring-violet-400"
           />
         </div>
 
