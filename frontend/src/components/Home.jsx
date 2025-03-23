@@ -11,7 +11,7 @@ const Home = () => {
     <CardList />
 <HostelSearchForm />
 {/* faq */}
-<section className="bg-gray-700 dark:bg-gray-100 text-gray-100 dark:text-gray-800 p-14">
+<section className="bg-gray-700 dark:bg-gray-100 text-gray-100 dark:text-gray-800 p-10">
 	<div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
 		<h2 className="text-2xl font-semibold sm:text-4xl pb-4">Frequently Asked Questions</h2>
 		<div className="space-y-4">
