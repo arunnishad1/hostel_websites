@@ -17,27 +17,27 @@ const Home = () => {
 		<div className="space-y-4">
 			<details className="w-full border rounded-lg">
 				<summary className="px-4 py-2 focus:outline-none focus-visible:ring-violet-400 focus-visible:dark:ring-violet-600 hover:cursor-pointer">Do you provide meals?</summary>
-				<p className="px-4 py-2 pt-0 ml-4 -mt-4 text-gray-400 dark:text-gray-600">We offer complimentary breakfast and have a shared kitchen for self-cooking. </p>
+				<p className="px-4 py-3 pt-0 ml-4 -mt-4 text-gray-400 dark:text-gray-600">We offer complimentary breakfast and have a shared kitchen for self-cooking. </p>
 			</details>
 			<details className="w-full border rounded-lg">
 				<summary className="px-4 py-2 focus:outline-none focus-visible:ring-violet-400 focus-visible:dark:ring-violet-600 hover:cursor-pointer">Is Wi-Fi available?</summary>
-				<p className="px-4 py-2 pt-0 ml-4 -mt-4 text-gray-400 dark:text-gray-600">Yes, free high-speed Wi-Fi is available throughout the hostel. </p>
+				<p className="px-4 py-3 pt-0 ml-4 -mt-4 text-gray-400 dark:text-gray-600">Yes, free high-speed Wi-Fi is available throughout the hostel. </p>
 			</details>
 			<details className="w-full border rounded-lg">
 				<summary className="px-4 py-2 focus:outline-none focus-visible:ring-violet-400 focus-visible:dark:ring-violet-600 hover:cursor-pointer">How do I book a room?</summary>
-				<p className="px-4 py-2 pt-0 ml-4 -mt-4 text-gray-400 dark:text-gray-600">You can book a room online through our booking page. </p>
+				<p className="px-4 py-3 pt-0 ml-4 -mt-4 text-gray-400 dark:text-gray-600">You can book a room online through our booking page. </p>
 			</details>
 			<details className="w-full border rounded-lg">
 				<summary className="px-4 py-2 focus:outline-none focus-visible:ring-violet-400 focus-visible:dark:ring-violet-600 hover:cursor-pointer">Do you provide laundry facilities?</summary>
-				<p className="px-4 py-2 pt-0 ml-4 -mt-4 text-gray-400 dark:text-gray-600">Yes, we have self-service laundry facilities for guests. </p>
+				<p className="px-4 py-3 pt-0 ml-4 -mt-4 text-gray-400 dark:text-gray-600">Yes, we have self-service laundry facilities for guests. </p>
 			</details>
 			<details className="w-full border rounded-lg">
 				<summary className="px-4 py-2 focus:outline-none focus-visible:ring-violet-400 focus-visible:dark:ring-violet-600 hover:cursor-pointer">Are group bookings allowed?</summary>
-				<p className="px-4 py-2 pt-0 ml-4 -mt-4 text-gray-400 dark:text-gray-600">Yes, we accommodate group bookings; contact us for special arrangements. </p>
+				<p className="px-4 py-3 pt-0 ml-4 -mt-4 text-gray-400 dark:text-gray-600">Yes, we accommodate group bookings; contact us for special arrangements. </p>
 			</details>
 			<details className="w-full border rounded-lg">
 				<summary className="px-4 py-2 focus:outline-none focus-visible:ring-violet-400 focus-visible:dark:ring-violet-600 hover:cursor-pointer">Is there public transport nearby?</summary>
-				<p className="px-4 py-2 pt-0 ml-4 -mt-4 text-gray-400 dark:text-gray-600">Yes, we are well-connected by buses and trains. </p>
+				<p className="px-4 py-3 pt-0 ml-4 -mt-4 text-gray-400 dark:text-gray-600">Yes, we are well-connected by buses and trains. </p>
 			</details>
 		</div>
 	</div>
