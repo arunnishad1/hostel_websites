@@ -1,0 +1,11 @@
+const express = require("express")
+const {signup, login, update, resetPassword, forgotPassword, contact} = require("../controller/user.controller.js")
+const {userAuth} = require("../middleware/user.middleware.js")
+const routes = express.Router()
+routes.post("/signup", signup)
+routes.post("/login",login)
+routes.post("/update",userAuth, update)
+routes.post("/resetPassword", userAuth, resetPassword)
+routes.post("/resetPassword/:token", userAuth, forgotPassword)
+routes.post("/contact",userAuth, contact)
+module.exports = routes
